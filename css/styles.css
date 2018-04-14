@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font');
+body {
+    text-align: center;
+    background-image: url('https://image.ibb.co/mqiv07/background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    font-family: 'Cute Font', cursive;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-size: 30px;
+}
+.button {
+    border: 1px solid #000;
+    padding: 15px 25px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 20px 0 20px;
+}
+.stopwatch {
+    font-size: 70px;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #F5D769;
+}
+.button:focus {
+    outline: 0;
+}
